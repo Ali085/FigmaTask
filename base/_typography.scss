@@ -1,0 +1,61 @@
+.secton-home{
+    text-align: center;
+    margin-top: 200px;
+    
+    h1{
+        font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 84px;
+/* or 114% */
+
+
+letter-spacing: 0.2px;
+
+/* Light text */
+
+color: #FFFFFF;
+
+
+    }
+    h4{
+        font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 40px;
+/* or 143% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* Light text */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+ 
+}
+.features-main-opentype{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 564px;
+    h3{
+        font-size: 40px;
+    }
+    p{
+        font-size: 30px;
+    }
+
+}
+.features-main-fastest{
+    
+}

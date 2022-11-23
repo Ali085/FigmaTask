@@ -1,0 +1,136 @@
+.imgBG {
+  position: absolute;
+  left: 0.07%;
+  right: 0%;
+  top: -300%;
+  bottom: -92600%;
+}
+
+.features-main img {
+  width: 85px;
+  height: auto;
+  margin-left: 688px;
+}
+
+.secton-home {
+  text-align: center;
+  margin-top: 200px;
+}
+.secton-home h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 84px;
+  /* or 114% */
+  letter-spacing: 0.2px;
+  /* Light text */
+  color: #FFFFFF;
+}
+.secton-home h4 {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 40px;
+  /* or 143% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* Light text */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.features-main-opentype {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 564px;
+}
+.features-main-opentype h3 {
+  font-size: 40px;
+}
+.features-main-opentype p {
+  font-size: 30px;
+}
+
+.secton-home > button {
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px;
+  width: 336px;
+  height: 72px;
+  font-size: 30px;
+  /* Primary */
+  background: #2091F9;
+  border-radius: 35px;
+  color: white;
+  margin-top: 100px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.nav {
+  width: 1210px;
+  height: 156px;
+  margin: 0 auto;
+}
+.nav .DesktopMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 90px;
+  justify-content: center;
+  width: 437px;
+  height: 48px;
+  left: 40px;
+}
+.nav .DesktopMenu a {
+  margin-top: 67.5px;
+  color: white;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  font-size: 30px;
+}
+.nav .nav-images {
+  display: flex;
+  gap: 33px;
+  justify-content: flex-end;
+}
+
+.home-section {
+  height: 80vh;
+}
+
+.header-image {
+  background-image: url("../assets/imgs/Rectangle 9.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.features-header {
+  margin-top: 100px;
+  text-align: center;
+}
+.features-header h2 {
+  font-size: 60px;
+}
+.features-header h4 {
+  font-size: 50px;
+}
+
+.section-features {
+  height: 100vh;
+}/*# sourceMappingURL=main.css.map */
