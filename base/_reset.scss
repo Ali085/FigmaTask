@@ -9,6 +9,48 @@
     img{
         width: 85px;
     height: auto;
-    margin-left: 688px;
+    margin-left: 669px;
+    }
+}
+.features-img{
+    img{
+        display: flex;
+        margin: 0px auto;
+        margin-top: 150px;
+        border-radius: 20px;
+        height: 80vh;
+        
+    }
+}
+.macbookPro{
+    display: inline-block;
+    margin-left: 36px;
+    img{
+        margin-right: 420px;
+        width: 1000px;
+        height: auto;
+        
+    }
+}
+.lightning-img{
+    display: inline-block;
+    margin-left: 430px;
+    img{
+        height: 850px;
+        
+    }
+}
+.partners-div{
+    img{
+        width: 1600px;
+        height: auto;
+        margin-bottom: 160px;
+    }
+}
+.map-img{
+    display:  flex;
+    img{
+        margin-left: 200px;
+        height: 400px;
     }
 }

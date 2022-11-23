@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/graphik");
 .imgBG {
   position: absolute;
   left: 0.07%;
@@ -9,7 +10,51 @@
 .features-main img {
   width: 85px;
   height: auto;
-  margin-left: 688px;
+  margin-left: 669px;
+}
+
+.features-img img {
+  display: flex;
+  margin: 0px auto;
+  margin-top: 150px;
+  border-radius: 20px;
+  height: 80vh;
+}
+
+.macbookPro {
+  display: inline-block;
+  margin-left: 36px;
+}
+.macbookPro img {
+  margin-right: 420px;
+  width: 1000px;
+  height: auto;
+}
+
+.lightning-img {
+  display: inline-block;
+  margin-left: 430px;
+}
+.lightning-img img {
+  height: 850px;
+}
+
+.partners-div img {
+  width: 1600px;
+  height: auto;
+  margin-bottom: 160px;
+}
+
+.map-img {
+  display: flex;
+}
+.map-img img {
+  margin-left: 200px;
+  height: 400px;
+}
+
+* {
+  font-family: "Graphik", sans-serif;
 }
 
 .secton-home {
@@ -45,16 +90,284 @@
 
 .features-main-opentype {
   display: flex;
-  text-align: center;
   flex-direction: column;
-  align-items: flex-start;
-  margin-left: 564px;
 }
 .features-main-opentype h3 {
   font-size: 40px;
+  display: flex;
 }
 .features-main-opentype p {
   font-size: 30px;
+}
+
+.all-features-main {
+  display: flex;
+  justify-content: center;
+  gap: 427px;
+}
+
+.fastest-txt {
+  display: inline-block;
+  margin-left: 600px;
+}
+.fastest-txt h2 {
+  font-size: 80px;
+  font-weight: 400;
+}
+.fastest-txt h4 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.lightning-txt {
+  display: inline-block;
+  margin-left: 370px;
+  bottom: 300px;
+}
+.lightning-txt .lighrning-header {
+  font-size: 40px;
+}
+.lightning-txt h2 {
+  font-size: 80px;
+}
+.lightning-txt .subscribe-newstaller {
+  font-size: 35px;
+}
+.lightning-txt .lightning-paragraph {
+  font-size: 30px;
+}
+
+.subscribe {
+  display: flex;
+}
+.subscribe p {
+  font-size: 24px;
+}
+
+.partners-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.partners-div h2 {
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.partners-div h4 {
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.Testimonials-txt {
+  text-align: center;
+}
+.Testimonials-txt h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 120px;
+}
+.Testimonials-txt img {
+  height: 80px;
+  width: auto;
+}
+.Testimonials-txt h4 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.Testimonials-img {
+  display: flex;
+  justify-content: center;
+}
+.Testimonials-img img {
+  margin-right: 50px;
+  width: 100px;
+  margin-top: 20px;
+}
+.Testimonials-img h5 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.Testimonials-paragraph {
+  text-align: center;
+  margin-left: 112px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.pricing-txt {
+  text-align: center;
+}
+
+.pricing-txt {
+  padding-top: 180px;
+}
+.pricing-txt h2 {
+  color: #FFFFFF;
+  font-size: 70px;
+  font-weight: 400;
+}
+.pricing-txt h4 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.pricing-cards {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.pricing-cards .free {
+  text-align: center;
+  display: inline-block;
+  width: 450px;
+  height: 750px;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: 500px;
+  margin-top: 150px;
+}
+.pricing-cards .free h3 {
+  font-size: 35px;
+  padding-top: 40px;
+  color: #252B42;
+}
+.pricing-cards .free h5 {
+  font-size: 18px;
+  color: #252B42;
+  font-weight: 400;
+}
+.pricing-cards .free h1 {
+  font-size: 60px;
+  color: #252B42;
+}
+.pricing-cards .free p {
+  font-size: 24px;
+  color: #252B42;
+  margin-top: 15px;
+}
+.pricing-cards .standart {
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  width: 450px;
+  height: 900px;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: 337px;
+  background: #2091F9;
+}
+.pricing-cards .standart h3 {
+  color: white;
+  font-size: 30px;
+}
+.pricing-cards .standart h5 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.pricing-cards .standart h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+.pricing-cards .standart p {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 35px;
+}
+
+.businnes {
+  text-align: center;
+  display: inline-block;
+  width: 450px;
+  height: 750px;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: 320px;
+  margin-top: 150px;
+}
+.businnes h3 {
+  font-size: 35px;
+  padding-top: 40px;
+  color: #252B42;
+}
+.businnes h5 {
+  font-size: 18px;
+  color: #252B42;
+  font-weight: 400;
+}
+.businnes h1 {
+  font-size: 60px;
+  color: #252B42;
+}
+.businnes p {
+  font-size: 24px;
+  color: #252B42;
+  margin-top: 15px;
+}
+
+.contact-section-header {
+  text-align: center;
+  padding-top: 170px;
+}
+.contact-section-header h2 {
+  font-size: 70px;
+  font-weight: 400;
+}
+.contact-section-header h4 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.contact-send {
+  width: 700px;
+  height: 900px;
+  background-color: rgb(244, 239, 239);
+  border: 1px solid rgb(188, 186, 186);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+.contact-send h3 {
+  font-size: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.contact-send .inp-personal {
+  width: 600px;
+  height: 70px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 28px;
+}
+.contact-send .inp-message {
+  width: 600px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+.contact-img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 45px;
+  padding: 50px;
+}
+.contact-img img {
+  width: 50px;
+  height: auto;
 }
 
 .secton-home > button {
@@ -73,6 +386,117 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.fastest-txt button {
+  width: 350px;
+  height: 80px;
+  background: #2091F9;
+  border-radius: 35px;
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.subscribe button {
+  margin-left: 310px;
+  width: 250px;
+  height: 80px;
+  background-color: #2091F9;
+  border-radius: 60px;
+  color: white;
+  font-size: 28px;
+}
+
+.partners-div button {
+  width: 350px;
+  height: 90px;
+  background-color: #2091F9;
+  border-radius: 60px;
+  color: white;
+  font-size: 28px;
+}
+
+.Testimonials-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.Testimonials-btn button {
+  width: 390px;
+  height: 90px;
+  background-color: #2091F9;
+  border-radius: 60px;
+  color: white;
+  font-size: 28px;
+}
+
+.free button {
+  width: 340px;
+  height: 77px;
+  background-color: #2091F9;
+  border-radius: 60px;
+  color: white;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.standart button {
+  width: 340px;
+  height: 77px;
+  background-color: #ffffff;
+  border-radius: 60px;
+  color: #2091F9;
+  font-size: 28px;
+  margin-top: 60px;
+}
+
+.businnes button {
+  width: 340px;
+  height: 77px;
+  background-color: #2091F9;
+  border-radius: 60px;
+  color: white;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.contact-send button {
+  width: 190px;
+  height: 77px;
+  background-color: #2091F9;
+  border-radius: 60px;
+  color: white;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+footer {
+  height: 50vh;
+  background: #252B42;
+}
+footer div {
+  margin-left: 250px;
+  padding-top: 60px;
+  color: white;
+  display: inline-block;
+}
+footer div h3 {
+  font-size: 45px;
+  margin-left: 30px;
+}
+footer div ul {
+  list-style-type: none;
+  font-size: 30px;
+}
+footer div ul li {
+  margin-bottom: 30px;
+}
+
+.social-footer img {
+  gap: 45px;
+  margin-left: 20px;
 }
 
 .nav {
@@ -132,5 +556,31 @@
 }
 
 .section-features {
-  height: 100vh;
+  height: 150vh;
+}
+
+.fastest-section {
+  margin-top: 400px;
+  height: 70vh;
+}
+
+.lightning-section {
+  height: 70vh;
+}
+
+.partners-section {
+  height: 90vh;
+}
+
+.testimonials-section {
+  height: 80vh;
+}
+
+.pricing-section {
+  height: 120vh;
+  background: #252B42;
+}
+
+.contact-section {
+  height: 145vh;
 }/*# sourceMappingURL=main.css.map */

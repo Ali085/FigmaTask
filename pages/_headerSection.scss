@@ -1,29 +1,57 @@
-    .home-section{
-        
+    .home-section {
+
         height: 80vh;
     }
-    .header-image{
+
+    .header-image {
         background-image: url("../assets/imgs/Rectangle\ 9.svg");
         background-repeat: no-repeat;
         background-size: cover;
-        width:100%;
-        height:100vh;
+        width: 100%;
+        height: 100vh;
         position: absolute;
         top: 0;
         left: 0;
         z-index: -1;
     }
-    .features-header{
+
+    .features-header {
         margin-top: 100px;
         text-align: center;
-        h2{
+
+        h2 {
             font-size: 60px;
         }
-        h4{
+
+        h4 {
             font-size: 50px;
         }
-        
+
     }
-    .section-features{
-        height: 100vh;
+
+    .section-features {
+        height: 150vh;
+    }
+
+    .fastest-section {
+        margin-top: 400px;
+        height: 70vh;
+    }
+
+    .lightning-section {
+        height: 70vh;
+    }
+
+    .partners-section {
+        height: 90vh;
+    }
+    .testimonials-section{
+        height: 80vh;
+    }
+    .pricing-section{
+        height: 120vh;
+        background: #252B42;
+    }
+    .contact-section{
+        height: 145vh;
     }

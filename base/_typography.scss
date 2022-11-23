@@ -1,61 +1,390 @@
-.secton-home{
+* {
+    font-family: 'Graphik', sans-serif;
+
+}
+
+.secton-home {
     text-align: center;
     margin-top: 200px;
-    
-    h1{
+
+    h1 {
         font-style: normal;
-font-weight: 700;
-font-size: 100px;
-line-height: 84px;
-/* or 114% */
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 84px;
+        /* or 114% */
 
 
-letter-spacing: 0.2px;
+        letter-spacing: 0.2px;
 
-/* Light text */
+        /* Light text */
 
-color: #FFFFFF;
+        color: #FFFFFF;
 
 
     }
-    h4{
+
+    h4 {
         font-family: 'Graphik';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 40px;
-/* or 143% */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 40px;
+        /* or 143% */
 
-text-align: center;
-letter-spacing: 0.2px;
+        text-align: center;
+        letter-spacing: 0.2px;
 
-/* Light text */
+        /* Light text */
 
-color: #FFFFFF;
+        color: #FFFFFF;
 
 
-/* Inside auto layout */
+        /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
     }
- 
+
 }
-.features-main-opentype{
+
+.features-main-opentype {
     display: flex;
-    text-align: center;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 564px;
-    h3{
+
+
+    h3 {
         font-size: 40px;
+        display: flex;
     }
-    p{
+
+    p {
         font-size: 30px;
     }
 
 }
-.features-main-fastest{
-    
+
+.all-features-main {
+    display: flex;
+    justify-content: center;
+    gap: 427px;
+
+}
+
+.fastest-txt {
+    display: inline-block;
+    margin-left: 600px;
+
+    h2 {
+        font-size: 80px;
+        font-weight: 400;
+    }
+
+    h4 {
+        font-size: 50px;
+        font-weight: 300;
+    }
+
+}
+
+.lightning-txt {
+    display: inline-block;
+    margin-left: 370px;
+    bottom: 300px;
+
+    .lighrning-header {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 80px;
+    }
+
+    .subscribe-newstaller {
+        font-size: 35px;
+    }
+
+    .lightning-paragraph {
+        font-size: 30px;
+    }
+
+
+}
+
+.subscribe {
+    display: flex;
+
+    p {
+        font-size: 24px;
+    }
+
+
+}
+
+.partners-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+        font-size: 80px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+
+    h4 {
+        font-size: 36px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+}
+
+.Testimonials-txt {
+    text-align: center;
+
+    h2 {
+        font-size: 70px;
+        font-weight: 400;
+        margin-bottom: 120px;
+    }
+
+    img {
+        height: 80px;
+        width: auto;
+    }
+
+    h4 {
+        font-size: 50px;
+        font-weight: 300;
+    }
+}
+
+.Testimonials-img {
+    display: flex;
+    justify-content: center;
+
+    img {
+        margin-right: 50px;
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    h5 {
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 0;
+
+    }
+}
+
+.Testimonials-paragraph {
+    text-align: center;
+    margin-left: 112px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.pricing-txt {
+    text-align: center;
+
+}
+
+.pricing-txt {
+    padding-top: 180px;
+
+    h2 {
+        color: #FFFFFF;
+        font-size: 70px;
+        font-weight: 400;
+    }
+
+    h4 {
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: 400;
+    }
+}
+
+.pricing-cards {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    .free {
+        text-align: center;
+        display: inline-block;
+        width: 450px;
+        height: 750px;
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 500px;
+        margin-top: 150px;
+
+        h3 {
+            font-size: 35px;
+            padding-top: 40px;
+            color: #252B42;
+        }
+
+        h5 {
+            font-size: 18px;
+            color: #252B42;
+            font-weight: 400;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: #252B42;
+        }
+
+        p {
+            font-size: 24px;
+            color: #252B42;
+            margin-top: 15px;
+
+        }
+
+    }
+
+    .standart {
+        text-align: center;
+        justify-content: center;
+        display: inline-block;
+        width: 450px;
+        height: 900px;
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 337px;
+        background: #2091F9;
+
+        h3 {
+            color: white;
+            font-size: 30px;
+        }
+
+        h5 {
+            font-size: 18px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 24px;
+            color: #ffffff;
+            margin-top: 35px;
+
+        }
+
+
+    }
+}
+
+.businnes {
+    text-align: center;
+    display: inline-block;
+    width: 450px;
+    height: 750px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 320px;
+    margin-top: 150px;
+
+    h3 {
+        font-size: 35px;
+        padding-top: 40px;
+        color: #252B42;
+    }
+
+    h5 {
+        font-size: 18px;
+        color: #252B42;
+        font-weight: 400;
+    }
+
+    h1 {
+        font-size: 60px;
+        color: #252B42;
+    }
+
+    p {
+        font-size: 24px;
+        color: #252B42;
+        margin-top: 15px;
+
+    }
+
+}
+
+.contact-section-header {
+    text-align: center;
+    padding-top: 170px;
+
+    h2 {
+        font-size: 70px;
+        font-weight: 400;
+    }
+
+    h4 {
+        font-size: 45px;
+        font-weight: 400;
+    }
+}
+
+.contact-send {
+    width: 700px;
+    height: 900px;
+    background-color: rgb(244, 239, 239);
+    border: 1px solid rgb(188, 186, 186);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+
+    h3 {
+        font-size: 30px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .inp-personal {
+        width: 600px;
+        height: 70px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 28px;
+    }
+
+    .inp-message {
+        width: 600px;
+        height: 300px;
+        margin-left: 30px;
+        margin-top: 40px;
+        font-size: 28px;
+    }
+}
+
+.contact-img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 45px;
+    padding: 50px;
+
+    img {
+
+        width: 50px;
+        height: auto;
+    }
 }
